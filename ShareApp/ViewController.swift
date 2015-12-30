@@ -40,24 +40,15 @@ class ViewController: UIViewController, UIDocumentInteractionControllerDelegate 
     
     @IBAction func shareOnInstagramm(sender: AnyObject) {
         
-       let img = UIImage(named: "newyear_morefun")
-        
-//        if (MGInstagram. isAppInstalled] && [MGInstagram isImageCorrectSize:image]) {
-//            [self.instagram postImage:image inView:self.view];
-//        }
-//        else {
-//            NSLog(@"Error Instagram is either not installed or image is incorrect size");
-//        }
-        
-        
-        let instagramUrl = NSURL(string: "instagram://app")
+      let img = UIImage(named: "newyear_morefun")
+      let instagramUrl = NSURL(string: "instagram://app")
         if(UIApplication.sharedApplication().canOpenURL(instagramUrl!)){
             
             //Instagram App avaible
             
             let imageData = UIImageJPEGRepresentation(img!, 100)
             let captionString = "Your Caption"
-            let writePath = (NSTemporaryDirectory() as NSString).stringByAppendingPathComponent("instagram.igo")
+            let writePath = (NSTemporaryDirectory() as NSString).stringByAppendingPathComponent("instagram.igo")//instagram.igo
             
             if(!imageData!.writeToFile(writePath, atomically: true)){
                 //Fail to write. Don't post it
@@ -75,6 +66,7 @@ class ViewController: UIViewController, UIDocumentInteractionControllerDelegate 
         } else {
             //Instagram App NOT avaible...
         }
+
     }
     
     

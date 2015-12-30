@@ -4,7 +4,10 @@
 # use_frameworks!
 
 target 'ShareApp' do
-pod 'MGInstagram'
+    #pod 'MGInstagram'
+    #pod 'AQSInstagramActivity'
+    #pod 'DMActivityInstagram', '0.0.3'
+        pod 'Reachability', '~> 3.1.1'
 end
 
 target 'ShareAppTests' do

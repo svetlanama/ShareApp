@@ -7,72 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC3AF4219D54B4D0EFE1129098A9BF8 /* MGInstagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7852BCDCF9E2F3B2E59929A0F7208247 /* MGInstagram-dummy.m */; };
-		3FA9AE525C0770349D3DDA04E18A816F /* MGInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2F2B1705E8C5A65B4698B5D5A97D2 /* MGInstagram.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9EA69A9B821D1922B23208AE78A80B31 /* Pods-ShareApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A64DF313A4BDD360F448D9D5A0AAC6F /* Pods-ShareApp-dummy.m */; };
-		A47B97AA25606DB54C195D3A32778535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		B0998C3F4F0FBEF83D027849355649AE /* MGInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = D673542A37B8537A25D599A06F0EFDD3 /* MGInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E18831C7312942BCF28FAAD387AC0474 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		187C0D7DFDB6F8D98785A40512EEDAC5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0853BD8CE1AE8CF5FE525E44C538C /* SystemConfiguration.framework */; };
+		66A8E6238BFA4059EFFBA2B6D823C3E8 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A2A70CB6AB8500885AFDAB18D35A12 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BBBC2E6E0DB511FCBFFE5853288FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+		763131AFB5BAD42DE7FA00DC36C8C95F /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9156B5D7AD191B1D50947D7C4A9C5 /* Reachability-dummy.m */; };
+		88D25E861EC39CAEB8D3E0C4F21018A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */; };
+		ADC98124F814A35E26E8576B44077500 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7587CE669F43043C23D8EA6BDEA80A /* Reachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7EEBF289EA96F9B1FD7A0D695959D49 /* Pods-ShareApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A64DF313A4BDD360F448D9D5A0AAC6F /* Pods-ShareApp-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3AE4774F21BEF7234949C0A58352E6FC /* PBXContainerItemProxy */ = {
+		F1B305B8DC57CDBFBAE8E422A2487DB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2199F5DD8F4ACE073DC3964343E74723;
-			remoteInfo = MGInstagram;
+			remoteGlobalIDString = 4050BB18CEECA537D09D06E8636EDE44;
+			remoteInfo = Reachability;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29004F767E400C0130C2FD5B8E3AB8DD /* libPods-ShareApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A2A70CB6AB8500885AFDAB18D35A12 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		1EC9156B5D7AD191B1D50947D7C4A9C5 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
 		2A64DF313A4BDD360F448D9D5A0AAC6F /* Pods-ShareApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareApp-dummy.m"; sourceTree = "<group>"; };
 		3327978327537712EA42B3962042C53D /* Pods-ShareApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareApp-resources.sh"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4DBB843F46FFEFC26951C37365A96181 /* Pods-ShareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareApp.debug.xcconfig"; sourceTree = "<group>"; };
-		7852BCDCF9E2F3B2E59929A0F7208247 /* MGInstagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGInstagram-dummy.m"; sourceTree = "<group>"; };
 		88C95A606205F252CFA8AA34EA72F308 /* Pods-ShareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareApp.release.xcconfig"; sourceTree = "<group>"; };
-		A647C4245E42B1CE15DDAC0C171BB9D5 /* MGInstagram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGInstagram-prefix.pch"; sourceTree = "<group>"; };
+		A90E3EFC1D17B84AE20116FFE1522E81 /* libPods-ShareApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7587CE669F43043C23D8EA6BDEA80A /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C53FF2D4146557719535CB4235C1FE95 /* libMGInstagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGInstagram.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B4B9F02C571B1FB0E5B0E99FCBEC8E /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB0853BD8CE1AE8CF5FE525E44C538C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		D3F5EEFF1862B82E4441A5E69A725D72 /* Pods-ShareApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		D673542A37B8537A25D599A06F0EFDD3 /* MGInstagram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGInstagram.h; path = MGInstagram/MGInstagram.h; sourceTree = "<group>"; };
+		D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D90AF3209E07AF9ED1D066D11978D883 /* Pods-ShareApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EEF2F2B1705E8C5A65B4698B5D5A97D2 /* MGInstagram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGInstagram.m; path = MGInstagram/MGInstagram.m; sourceTree = "<group>"; };
-		F9059522FA92698DC793B7F7A6911D8F /* MGInstagram.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGInstagram.xcconfig; sourceTree = "<group>"; };
+		F173ABEF1F58F3FEC9F57DA9B0C7796B /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
 		FA1E3B52AB891E1ADEE59D3FA97D5554 /* Pods-ShareApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareApp-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23DF8C792479406B1B3FC7ACB8574BF2 /* Frameworks */ = {
+		7046014A672E79F1403C7B1FFF2AD5F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47B97AA25606DB54C195D3A32778535 /* Foundation.framework in Frameworks */,
+				88D25E861EC39CAEB8D3E0C4F21018A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0A696CF9FCF8B5E6EC1E621EEF2EDFA /* Frameworks */ = {
+		E57C8A2C0B7F5B435D78E9B7280D33F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E18831C7312942BCF28FAAD387AC0474 /* Foundation.framework in Frameworks */,
+				72BBBC2E6E0DB511FCBFFE5853288FCD /* Foundation.framework in Frameworks */,
+				187C0D7DFDB6F8D98785A40512EEDAC5 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24032F133546E9559BA7D703793783B6 /* Support Files */ = {
+		0D1A9B04773EF0CA51E38942760CD6D4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F9059522FA92698DC793B7F7A6911D8F /* MGInstagram.xcconfig */,
-				7852BCDCF9E2F3B2E59929A0F7208247 /* MGInstagram-dummy.m */,
-				A647C4245E42B1CE15DDAC0C171BB9D5 /* MGInstagram-prefix.pch */,
+				D820BA2602BCBFDAEFA60A2883FB8F30 /* Foundation.framework */,
+				CBB0853BD8CE1AE8CF5FE525E44C538C /* SystemConfiguration.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MGInstagram";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1A9B04773EF0CA51E38942760CD6D4 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4A0E2C0DB780A9FAEDCCBBE0332CE067 /* Targets Support Files */ = {
@@ -83,42 +92,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5AB396A6A59AB538E39DF759F3D4245A /* MGInstagram */ = {
+		57DA4A7A70518C0F24FB5B180AA699A2 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				D673542A37B8537A25D599A06F0EFDD3 /* MGInstagram.h */,
-				EEF2F2B1705E8C5A65B4698B5D5A97D2 /* MGInstagram.m */,
-				24032F133546E9559BA7D703793783B6 /* Support Files */,
+				00A2A70CB6AB8500885AFDAB18D35A12 /* Reachability.h */,
+				AF7587CE669F43043C23D8EA6BDEA80A /* Reachability.m */,
+				DB5E4BB54CD520D1B840991E85F44639 /* Support Files */,
 			);
-			path = MGInstagram;
-			sourceTree = "<group>";
-		};
-		695ACCD92DCFDD6E14303B41CE7C2AC4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C53FF2D4146557719535CB4235C1FE95 /* libMGInstagram.a */,
-				29004F767E400C0130C2FD5B8E3AB8DD /* libPods-ShareApp.a */,
-			);
-			name = Products;
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				AA47F16ACEA4FC7BB34334B53CFA83F1 /* Pods */,
-				695ACCD92DCFDD6E14303B41CE7C2AC4 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D02F67554E14C3100F274620CC9E3885 /* Pods */,
+				C243CA398294186F7B6925075560CD90 /* Products */,
 				4A0E2C0DB780A9FAEDCCBBE0332CE067 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		AA47F16ACEA4FC7BB34334B53CFA83F1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5AB396A6A59AB538E39DF759F3D4245A /* MGInstagram */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BA6B56010036D699B1BBA5B39949C0E0 /* Pods-ShareApp */ = {
@@ -136,68 +128,80 @@
 			path = "Target Support Files/Pods-ShareApp";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C243CA398294186F7B6925075560CD90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				A90E3EFC1D17B84AE20116FFE1522E81 /* libPods-ShareApp.a */,
+				C0B4B9F02C571B1FB0E5B0E99FCBEC8E /* libReachability.a */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		D02F67554E14C3100F274620CC9E3885 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				57DA4A7A70518C0F24FB5B180AA699A2 /* Reachability */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB5E4BB54CD520D1B840991E85F44639 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */,
+				1EC9156B5D7AD191B1D50947D7C4A9C5 /* Reachability-dummy.m */,
+				F173ABEF1F58F3FEC9F57DA9B0C7796B /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DD6DDA33B35340194EB747FA2E22DFBB /* Headers */ = {
+		4BCFEED426662C14462DAC974E07393E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0998C3F4F0FBEF83D027849355649AE /* MGInstagram.h in Headers */,
+				66A8E6238BFA4059EFFBA2B6D823C3E8 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2199F5DD8F4ACE073DC3964343E74723 /* MGInstagram */ = {
+		4050BB18CEECA537D09D06E8636EDE44 /* Reachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A96ACA1E072D1AEF4E53567124FF573 /* Build configuration list for PBXNativeTarget "MGInstagram" */;
+			buildConfigurationList = 17F22EC9B62FA5E873A78E37747AA448 /* Build configuration list for PBXNativeTarget "Reachability" */;
 			buildPhases = (
-				E258F95E9113AF764F2DA04A898E5967 /* Sources */,
-				A0A696CF9FCF8B5E6EC1E621EEF2EDFA /* Frameworks */,
-				DD6DDA33B35340194EB747FA2E22DFBB /* Headers */,
+				B2BB86F0DDD21C0E129F6B3DC5BA01FD /* Sources */,
+				E57C8A2C0B7F5B435D78E9B7280D33F6 /* Frameworks */,
+				4BCFEED426662C14462DAC974E07393E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MGInstagram;
-			productName = MGInstagram;
-			productReference = C53FF2D4146557719535CB4235C1FE95 /* libMGInstagram.a */;
+			name = Reachability;
+			productName = Reachability;
+			productReference = C0B4B9F02C571B1FB0E5B0E99FCBEC8E /* libReachability.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6973F97F25BF9F8136E3FD6F6919E5B9 /* Pods-ShareApp */ = {
+		A6A50B3FCFF743433FA38B0E8C4DAD65 /* Pods-ShareApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBDF2322E1652106E2AD9FE23FB602F5 /* Build configuration list for PBXNativeTarget "Pods-ShareApp" */;
+			buildConfigurationList = 0D3FAED5880228077C003DD1AF7B60F7 /* Build configuration list for PBXNativeTarget "Pods-ShareApp" */;
 			buildPhases = (
-				B463C809303BD4121CEBA04EE5D515AA /* Sources */,
-				23DF8C792479406B1B3FC7ACB8574BF2 /* Frameworks */,
+				D5794998C2C2EFC9613822F0FF93CD92 /* Sources */,
+				7046014A672E79F1403C7B1FFF2AD5F3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9BB322211FBA1CFFC3101C7E5B0CA94C /* PBXTargetDependency */,
+				96A2E621DB9D78048464CF5BBAE47CB0 /* PBXTargetDependency */,
 			);
 			name = "Pods-ShareApp";
 			productName = "Pods-ShareApp";
-			productReference = 29004F767E400C0130C2FD5B8E3AB8DD /* libPods-ShareApp.a */;
+			productReference = A90E3EFC1D17B84AE20116FFE1522E81 /* libPods-ShareApp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -217,93 +221,59 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 695ACCD92DCFDD6E14303B41CE7C2AC4 /* Products */;
+			productRefGroup = C243CA398294186F7B6925075560CD90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2199F5DD8F4ACE073DC3964343E74723 /* MGInstagram */,
-				6973F97F25BF9F8136E3FD6F6919E5B9 /* Pods-ShareApp */,
+				A6A50B3FCFF743433FA38B0E8C4DAD65 /* Pods-ShareApp */,
+				4050BB18CEECA537D09D06E8636EDE44 /* Reachability */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B463C809303BD4121CEBA04EE5D515AA /* Sources */ = {
+		B2BB86F0DDD21C0E129F6B3DC5BA01FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA69A9B821D1922B23208AE78A80B31 /* Pods-ShareApp-dummy.m in Sources */,
+				763131AFB5BAD42DE7FA00DC36C8C95F /* Reachability-dummy.m in Sources */,
+				ADC98124F814A35E26E8576B44077500 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E258F95E9113AF764F2DA04A898E5967 /* Sources */ = {
+		D5794998C2C2EFC9613822F0FF93CD92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC3AF4219D54B4D0EFE1129098A9BF8 /* MGInstagram-dummy.m in Sources */,
-				3FA9AE525C0770349D3DDA04E18A816F /* MGInstagram.m in Sources */,
+				D7EEBF289EA96F9B1FD7A0D695959D49 /* Pods-ShareApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9BB322211FBA1CFFC3101C7E5B0CA94C /* PBXTargetDependency */ = {
+		96A2E621DB9D78048464CF5BBAE47CB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MGInstagram;
-			target = 2199F5DD8F4ACE073DC3964343E74723 /* MGInstagram */;
-			targetProxy = 3AE4774F21BEF7234949C0A58352E6FC /* PBXContainerItemProxy */;
+			name = Reachability;
+			target = 4050BB18CEECA537D09D06E8636EDE44 /* Reachability */;
+			targetProxy = F1B305B8DC57CDBFBAE8E422A2487DB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7BD5EE3716FA36C2027C61904A8EEB24 /* Debug */ = {
+		7F787AB27FFA604FAFA7A86A25209071 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9059522FA92698DC793B7F7A6911D8F /* MGInstagram.xcconfig */;
+			baseConfigurationReference = 09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MGInstagram/MGInstagram-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		832B5353EC7F0915C6E6BBE26256CF73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DBB843F46FFEFC26951C37365A96181 /* Pods-ShareApp.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9477725BBAC5FACE152BD9A1EC0A6E2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88C95A606205F252CFA8AA34EA72F308 /* Pods-ShareApp.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -348,14 +318,14 @@
 			};
 			name = Debug;
 		};
-		B3EA2C14290CC97437D7212C2C402CD9 /* Release */ = {
+		C46B5315CC0E91221CE0F36A433F61A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9059522FA92698DC793B7F7A6911D8F /* MGInstagram.xcconfig */;
+			baseConfigurationReference = 09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MGInstagram/MGInstagram-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -364,7 +334,41 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
+			name = Debug;
+		};
+		D23414486245851165D7A287AA4ACD41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C95A606205F252CFA8AA34EA72F308 /* Pods-ShareApp.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
 			name = Release;
+		};
+		F823DEEC6D37DE38C851F0126BC881DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBB843F46FFEFC26951C37365A96181 /* Pods-ShareApp.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -403,29 +407,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D3FAED5880228077C003DD1AF7B60F7 /* Build configuration list for PBXNativeTarget "Pods-ShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F823DEEC6D37DE38C851F0126BC881DB /* Debug */,
+				D23414486245851165D7A287AA4ACD41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F22EC9B62FA5E873A78E37747AA448 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46B5315CC0E91221CE0F36A433F61A7 /* Debug */,
+				7F787AB27FFA604FAFA7A86A25209071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
 				FB45FFD90572718D82AB9092B750F0CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6A96ACA1E072D1AEF4E53567124FF573 /* Build configuration list for PBXNativeTarget "MGInstagram" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BD5EE3716FA36C2027C61904A8EEB24 /* Debug */,
-				B3EA2C14290CC97437D7212C2C402CD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BBDF2322E1652106E2AD9FE23FB602F5 /* Build configuration list for PBXNativeTarget "Pods-ShareApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				832B5353EC7F0915C6E6BBE26256CF73 /* Debug */,
-				9477725BBAC5FACE152BD9A1EC0A6E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

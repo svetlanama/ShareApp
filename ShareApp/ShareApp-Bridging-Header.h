@@ -1,9 +1,7 @@
 //
-//  Header.h
-//  ShareApp
-//
-//  Created by Svitlana Moiseyenko on 12/30/15.
-//  Copyright © 2015 Svitlana Moiseyenko. All rights reserved.
+//  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-//#import "<MGInstagram/MGInstagram.h>"
+//#import "MGInstagram.h"
+//#import "AQSInstagramActivity.h"
+//#import "DMActivityInstagram.h"

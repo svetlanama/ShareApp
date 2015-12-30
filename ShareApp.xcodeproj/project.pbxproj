@@ -56,8 +56,8 @@
 		EA3725CE1C336C2900125276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3725DA1C336F6500125276 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		EA3725DC1C33727100125276 /* newyear_morefun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newyear_morefun.png; sourceTree = "<group>"; };
+		EAD662A91C340EE400A2F8C0 /* ShareApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		EAEA8D961C33874C003205D2 /* libMGInstagram.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMGInstagram.a; path = "Pods/../build/Debug-iphoneos/libMGInstagram.a"; sourceTree = "<group>"; };
-		EAEA8D981C3387D8003205D2 /* ShareApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShareApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		EAEA8D991C33895C003205D2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 				EA3725B51C336C2800125276 /* LaunchScreen.storyboard */,
 				EA3725B81C336C2800125276 /* Info.plist */,
 				EA3725DC1C33727100125276 /* newyear_morefun.png */,
-				EAEA8D981C3387D8003205D2 /* ShareApp-Bridging-Header.h */,
+				EAD662A91C340EE400A2F8C0 /* ShareApp-Bridging-Header.h */,
 			);
 			path = ShareApp;
 			sourceTree = "<group>";
@@ -489,6 +489,7 @@
 			baseConfigurationReference = A8B2EBBB840B49F559C744D1 /* Pods-ShareApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShareApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,6 +499,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = glory.ShareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShareApp/ShareApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -506,6 +509,7 @@
 			baseConfigurationReference = D13B8DBA7FB60A1CE686C15F /* Pods-ShareApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShareApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -515,6 +519,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = glory.ShareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShareApp/ShareApp-Bridging-Header.h";
 			};
 			name = Release;
 		};

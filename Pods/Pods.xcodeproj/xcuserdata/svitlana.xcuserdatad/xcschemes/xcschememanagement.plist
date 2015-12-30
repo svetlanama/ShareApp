@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MGInstagram.xcscheme</key>
+		<key>Pods-ShareApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ShareApp.xcscheme</key>
+		<key>Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2199F5DD8F4ACE073DC3964343E74723</key>
+		<key>4050BB18CEECA537D09D06E8636EDE44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6973F97F25BF9F8136E3FD6F6919E5B9</key>
+		<key>A6A50B3FCFF743433FA38B0E8C4DAD65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
