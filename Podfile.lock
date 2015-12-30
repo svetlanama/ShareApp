@@ -1,0 +1,10 @@
+PODS:
+  - MGInstagram (0.1.0)
+
+DEPENDENCIES:
+  - MGInstagram
+
+SPEC CHECKSUMS:
+  MGInstagram: c85a061e25b053ad1cb1227675e238ce6cc50221
+
+COCOAPODS: 0.39.0

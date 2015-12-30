@@ -9,9 +9,10 @@
 import UIKit
 import Social
 
-class ViewController: UIViewController {
+
+class ViewController: UIViewController, UIDocumentInteractionControllerDelegate {
     
-    
+    private var documentController:UIDocumentInteractionController!
     
     @IBAction func shareOnFb(sender: AnyObject) {
         
@@ -38,6 +39,42 @@ class ViewController: UIViewController {
     
     
     @IBAction func shareOnInstagramm(sender: AnyObject) {
+        
+       let img = UIImage(named: "newyear_morefun")
+        
+//        if (MGInstagram. isAppInstalled] && [MGInstagram isImageCorrectSize:image]) {
+//            [self.instagram postImage:image inView:self.view];
+//        }
+//        else {
+//            NSLog(@"Error Instagram is either not installed or image is incorrect size");
+//        }
+        
+        
+        let instagramUrl = NSURL(string: "instagram://app")
+        if(UIApplication.sharedApplication().canOpenURL(instagramUrl!)){
+            
+            //Instagram App avaible
+            
+            let imageData = UIImageJPEGRepresentation(img!, 100)
+            let captionString = "Your Caption"
+            let writePath = (NSTemporaryDirectory() as NSString).stringByAppendingPathComponent("instagram.igo")
+            
+            if(!imageData!.writeToFile(writePath, atomically: true)){
+                //Fail to write. Don't post it
+                return
+            } else{
+                //Safe to post
+                
+                let fileURL = NSURL(fileURLWithPath: writePath)
+                self.documentController = UIDocumentInteractionController(URL: fileURL)
+                self.documentController.delegate = self
+                self.documentController.UTI = "com.instagram.exclusivegram"
+                self.documentController.annotation =  NSDictionary(object: captionString, forKey: "InstagramCaption")
+                self.documentController.presentOpenInMenuFromRect(self.view.frame, inView: self.view, animated: true)
+            }
+        } else {
+            //Instagram App NOT avaible...
+        }
     }
     
     

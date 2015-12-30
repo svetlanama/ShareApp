@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F936A32599E57F09A78315D /* libPods-ShareApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBE8C75C7A0508F8A3E5051 /* libPods-ShareApp.a */; };
 		EA3725AD1C336C2800125276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3725AC1C336C2800125276 /* AppDelegate.swift */; };
 		EA3725AF1C336C2800125276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3725AE1C336C2800125276 /* ViewController.swift */; };
 		EA3725B21C336C2800125276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3725B01C336C2800125276 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		EA3725CD1C336C2900125276 /* ShareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3725CC1C336C2900125276 /* ShareAppUITests.swift */; };
 		EA3725DB1C336F6500125276 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3725DA1C336F6500125276 /* Social.framework */; };
 		EA3725DD1C33727100125276 /* newyear_morefun.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3725DC1C33727100125276 /* newyear_morefun.png */; };
+		EAEA8D9A1C33895C003205D2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA8D991C33895C003205D2 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FBE8C75C7A0508F8A3E5051 /* libPods-ShareApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B2EBBB840B49F559C744D1 /* Pods-ShareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareApp/Pods-ShareApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D13B8DBA7FB60A1CE686C15F /* Pods-ShareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareApp/Pods-ShareApp.release.xcconfig"; sourceTree = "<group>"; };
 		EA3725A91C336C2800125276 /* ShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3725AC1C336C2800125276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA3725AE1C336C2800125276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		EA3725CE1C336C2900125276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3725DA1C336F6500125276 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		EA3725DC1C33727100125276 /* newyear_morefun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newyear_morefun.png; sourceTree = "<group>"; };
+		EAEA8D961C33874C003205D2 /* libMGInstagram.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMGInstagram.a; path = "Pods/../build/Debug-iphoneos/libMGInstagram.a"; sourceTree = "<group>"; };
+		EAEA8D981C3387D8003205D2 /* ShareApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShareApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		EAEA8D991C33895C003205D2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEA8D9A1C33895C003205D2 /* Accounts.framework in Frameworks */,
 				EA3725DB1C336F6500125276 /* Social.framework in Frameworks */,
+				5F936A32599E57F09A78315D /* libPods-ShareApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23ACAC3436300EDA3F2F06BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA8D991C33895C003205D2 /* Accounts.framework */,
+				EAEA8D961C33874C003205D2 /* libMGInstagram.a */,
+				1FBE8C75C7A0508F8A3E5051 /* libPods-ShareApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2216141F74A8350072759E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8B2EBBB840B49F559C744D1 /* Pods-ShareApp.debug.xcconfig */,
+				D13B8DBA7FB60A1CE686C15F /* Pods-ShareApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA3725A01C336C2800125276 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +116,8 @@
 				EA3725C01C336C2900125276 /* ShareAppTests */,
 				EA3725CB1C336C2900125276 /* ShareAppUITests */,
 				EA3725AA1C336C2800125276 /* Products */,
+				A2216141F74A8350072759E2 /* Pods */,
+				23ACAC3436300EDA3F2F06BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +141,7 @@
 				EA3725B51C336C2800125276 /* LaunchScreen.storyboard */,
 				EA3725B81C336C2800125276 /* Info.plist */,
 				EA3725DC1C33727100125276 /* newyear_morefun.png */,
+				EAEA8D981C3387D8003205D2 /* ShareApp-Bridging-Header.h */,
 			);
 			path = ShareApp;
 			sourceTree = "<group>";
@@ -139,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA3725D11C336C2900125276 /* Build configuration list for PBXNativeTarget "ShareApp" */;
 			buildPhases = (
+				661CBD422D23498A07B5ADCB /* Check Pods Manifest.lock */,
 				EA3725A51C336C2800125276 /* Sources */,
 				EA3725A61C336C2800125276 /* Frameworks */,
 				EA3725A71C336C2800125276 /* Resources */,
+				3E7025BB6098011F64EC043B /* Embed Pods Frameworks */,
+				354490EFEDA49BABD9838DD2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +293,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		354490EFEDA49BABD9838DD2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareApp/Pods-ShareApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E7025BB6098011F64EC043B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareApp/Pods-ShareApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661CBD422D23498A07B5ADCB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA3725A51C336C2800125276 /* Sources */ = {
@@ -403,11 +486,16 @@
 		};
 		EA3725D21C336C2900125276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B2EBBB840B49F559C744D1 /* Pods-ShareApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShareApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = glory.ShareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -415,11 +503,16 @@
 		};
 		EA3725D31C336C2900125276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13B8DBA7FB60A1CE686C15F /* Pods-ShareApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShareApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = glory.ShareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
